@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 39, 72);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(2, 31, 57);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+    font-size: 1.05rem;
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(105, 53, 154);
+    height: 1.2px;
+    margin: 40px 85px;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection > div{
+    width: 40%;
+}
+
+.leftSection{
+    font-size: 3rem;
+}
+
+.leftSection button{
+    margin: 10px;
+}
+
+.leftSection .btn{
+    padding: 12px;
+    background-color: rgb(61, 45, 135);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .btn:hover{
+    background-color: rgb(2, 31, 57);
+}
+
+.rightSection img{
+    width: 90%;   
+} 
+
+.purple{
+    color: blueviolet;
+}
+
+#element{
+    color: blueviolet;
+}
+
+.secondSection-heading h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter
+}
+
+.secondSection{
+    max-width: 88vw;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+}
+
+.secondSection div{
+    width: 50%;
+}
+
+.secondRight{
+    padding: 100px;
+    padding-top: 60px;
+    padding-left: 180px;
+}
+
+.secondRight h2{
+    margin-bottom:  25px;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: rgb(178, 199, 236);
+}
+
+.secondLeft img{
+    height: 280px;
+    opacity: 0.4;
+    padding: 100px;
+    padding-top: 60px;
+}
+
+.thirdSection{
+    max-width: 88vw;
+    margin: auto;
+    /* height: 80vh; */
+}
+
+.thirdSection-heading{
+    text-align: center;
+}
+
+.thirdSection-heading-2{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.thirdSection h1{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.thirdSection hr{
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    height: 1.2px;
+    margin: 40px 285px;
+}
+
+.thirdSection-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.thirdSection-subDivs{
+    text-align: center;
+    box-shadow: 0 2px 10px rgb(16, 50, 99);
+    margin: 40px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: rgb(27, 65, 99);
+}
+
+.thirdSection-subDivs h5{
+    font-weight: lighter;
+}
+
+.thirdSection-div-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 60px;
+}
+
+.thirdSection-subDivs-2{
+    text-align: center;
+    box-shadow: 0 2px 10px rgb(16, 50, 99);
+    margin: 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: rgb(27, 65, 99);
+}
+
+.fourthSection{
+    padding-bottom: 70px;
+}
+
+.fourthSection-heading{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fourthSection-heading h1{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.fourthSection-div{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fourthSection-subDivs{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    margin: 30px;
+    padding: 90px 40px;
+    text-align: center;
+    background-color: rgb(27, 65, 99);
+    box-shadow: 0 2px 10px rgb(16, 50, 99);
+}
+
+.fourthSection-subDivs h4{
+    margin: 10px;
+    color: rgb(178, 199, 236);
+}
+
+footer{
+    background-color: rgb(15, 40, 62);  
+}
+
+.footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer h3{
+    margin-bottom: 15px;
+    color: rgb(178, 199, 236);
+}
+
+footer .footer-rights{
+    padding: 8px;
+    text-align: center;
+    color: rgb(209, 203, 233);
+}
+
+footer hr{
+    border: 0;
+    background-color: rgb(105, 53, 154);
+    height: 1.2px;
+    margin: 0px 85px;
+
+}
+
+
